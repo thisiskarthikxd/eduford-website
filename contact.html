@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Contact - Eduford's the best university</title>
+</head>
+
+<body>
+
+    <!----    HOME   -->
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <h1>Contact US</h1>
+
+    </section>
+
+    <!-- Contact us -->
+
+    <section class="location">
+
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15200.895382301813!2d83.30964331899409!3d17.73408890594554!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a3943489108d207%3A0xc5c280024dd34818!2sCMR%20Central%20Mall!5e0!3m2!1sen!2sin!4v1661863017503!5m2!1sen!2sin" frameborder="0"></iframe>
+
+    </section>
+
+
+<section class="contact-us">
+    <div class="row">
+        <div class="contact-col">
+            <div>
+                <i class="fa-solid fa-home"></i>
+                <span>
+                    <h5>Nehru Road, Big Building</h5>
+                    <p>New York, USA</p>
+                </span>
+            </div>
+            <div>
+                <i class="fa-solid fa-phone"></i>
+                <span>
+                    <h5>+17 98754-9087</h5>
+                    <p>Monday to Saturday, 10AM to 10PM</p>
+                </span>
+            </div>
+            <div>
+                <i class="fa-solid fa-envelope"></i>
+                <span>
+                    <h5>contact@edufor.com</h5>
+                    <p>Email Us</p>
+                </span>
+            </div>
+        </div>
+        <div class="contact-col">
+
+
+            <form action="" method="post">
+                <input type="text" name="name" id=" " placeholder="Enter Your Name*" required>
+                <input type="email" name="email" id=" " placeholder="Enter Your Email*" required>
+                <input type="text" name="subject" id=" " placeholder="Enter Your Subject*" required>
+                <textarea name="message" id=""  rows="8" placeholder="Message*" required></textarea>
+                <button type="submit" class="hero-btn red-btn">Send Message</button>
+
+            </form>
+
+
+
+
+        </div>
+    </div>
+</section>
+
+
+
+
+
+<!--Footer-->
+
+<section class="footer">
+    <h4>About US</h4>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus at asperiores ipsa possimus illo eveniet ratione<br>id pariatur ullam, cupiditate officiis autem a? Iste, quis.</p>
+    <div class="icons">
+        <i class="fa-solid fa-facebook"></i>
+        <i class="fa-solid fa-twitter"></i>
+        <i class="fa-solid fa-instagram"></i>
+        <i class="fa-solid fa-linkedin"></i>
+    </div>
+    <p>Made with <i class="fa-solid fa-heart"></i> By Karthik</p>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+
+</script>
+
+
+
+
+
+
+
+</html>
